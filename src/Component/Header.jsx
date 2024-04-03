@@ -34,6 +34,8 @@ const Header = () => {
                        
                         </div>  
                         <h4 className='text-white mx-3'>Cart</h4>
+                        <h4 className='text-white mx-3'>like</h4>
+
                         </div>
                     </div>
                 </div>
