@@ -2,10 +2,10 @@ import logo from './logo.svg';
 import './App.css';
 import { BrowserRouter, Route, Routes } from 'react-router-dom';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import Layout from './Component/Layout';
-import Header from './Component/Header';
-import Footer from './Component/Footer';
-import Home from './Component/Home';
+import Layout from './Component/Landing/Layout';
+import Header from './Component/Landing/Header';
+import Footer from './Component/Landing/Footer';
+import Home from './Component/Landing/Home';
 import Login from './Component/Login';
 import Register from './Component/Register';
 
@@ -14,6 +14,7 @@ import AdminDashboard from './Admin/AdminDashboard';
 import Admin_Add from './Admin/Admin_Add';
 import Admin_Header from './Admin/Admin_Header';
 import Admin_Layout from './Admin/Admin_Layout'
+import Contact from './Component/Contact';
 function App() {
   return (
     <>
@@ -27,7 +28,9 @@ function App() {
             <Route path='/home' element={<Home />}></Route>
             <Route path='/header' element={<Header />}></Route>
             <Route path='/Footer' element={<Footer />}></Route>
+           
           </Route>
+          <Route path='/contact' element={<Contact />}></Route>
 
           {/* Admin Routes */}
           <Route path='/' element={<Admin_Layout />}>
