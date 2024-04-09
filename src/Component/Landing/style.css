@@ -6,7 +6,7 @@
 }
 
 body {
-  background-color: white!important;
+  background-color: #F4F1EA!important;
 }
 
 ul , ol {
@@ -17,32 +17,55 @@ a{
   text-decoration: none;
 }
 /* HEADER */
-.menu{
-  text-align: center;
-  list-style: none;
-  padding: 9px;
-  background-color: rgba(128, 128, 128, 0.179);
+.main{
+  background-color: #fbf8f5;
+  padding: 8px 50px;
+  display: flex;
+  align-items: center!important;
+}
 
-}
-.menu ul li{
-  display: inline-block;
-  padding: 1vh 4vh 0;
-}
-.menu ul li a{
-  font-size: 3vh;
-  color: black;
-  font-family :Arial, Helvetica, sans-serif;
-  letter-spacing: 1px;
+.main .menu ul {
   text-transform: uppercase;
-  text-decoration: none;
-  transition: ease-in-out 100ms;  font-size: 16px;
-  padding: 30px;
+  display: flex;
+  align-items: center !important;
+  justify-content: center;
+  margin: 0;
 }
-.menu ul li a:hover{
-  color: #ec953c;
+
+.main .menu ul li:first-child a{
+  color: #b23920;
+  font-size: 20px;
 }
-.menu ul li .active{
-  color: #ec953c;
+
+.main .menu ul li a{
+  font-size: 20px;
+  color: black;
+}
+
+.main .button ul{
+    margin: 0;
+}
+
+.main .button ul li input{
+  background-color: transparent;
+  margin-right: 10px;
+  margin-bottom: 0;
+  border: 1px solid gray;
+  border-radius: 4px;
+  width: 270px;
+  height: 35px;
+}
+
+.main .button ul li button{
+  width: 100px;
+  height: 35px;
+  background-color: #b23920;
+  font-size: 18px;
+  border: none;
+  border-radius: 10px;
+}
+.main .button ul li button a{
+  color: white;
 }
 
 /* Footer */

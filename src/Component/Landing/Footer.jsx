@@ -9,7 +9,7 @@ import { FaTwitter } from "react-icons/fa";
 const Footer = () => {
     return (
         <>
-            <footer className="footer">
+            <footer className="footer mt-2">
                 <div className="container">
                     <div className="row">
                         <div className="footer-img text-center p-4">
