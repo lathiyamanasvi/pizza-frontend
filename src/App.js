@@ -15,6 +15,9 @@ import Admin_Add from './Admin/Admin_Add';
 import Admin_Header from './Admin/Admin_Header';
 import Admin_Layout from './Admin/Admin_Layout'
 import Contact from './Component/Contact';
+import Blog from './Component/Blog';
+import Gallery from './Component/Landing/Gallery';
+import Newsletter from './Component/Landing/Newsletter';
 function App() {
   return (
     <>
@@ -28,9 +31,12 @@ function App() {
             <Route path='/home' element={<Home />}></Route>
             <Route path='/header' element={<Header />}></Route>
             <Route path='/Footer' element={<Footer />}></Route>
+            <Route path='/gallery' element={<Gallery />}></Route>
+            <Route path='/news' element={<Newsletter />}></Route>
            
           </Route>
           <Route path='/contact' element={<Contact />}></Route>
+          <Route path='/blog' element={<Blog />}></Route>
 
           {/* Admin Routes */}
           <Route path='/' element={<Admin_Layout />}>

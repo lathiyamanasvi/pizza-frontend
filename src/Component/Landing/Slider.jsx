@@ -34,16 +34,16 @@ const Slider = () => {
           <div className="carousel-item active">
             <div
               style={{
-                backgroundImage: `url("https://htmldemo.net/bakerfresh/bakerfresh/assets/images/slider/slider-01.jpg")`,
+                backgroundImage: `url("https://fast-food.bold-themes.com/main-demo/wp-content/uploads/sites/2/2017/06/background-pizza-home-top.jpg")`,
                 backgroundRepeat: "no-repeat",
                 backgroundPosition: "center",
-                height: "850px",
+                height: "500px",
               }}
             >
               <div className="container">
                 <div className="text-center" style={{ paddingTop: "200px"  }}>
                   <img src="	https://htmldemo.net/bakerfresh/bakerfresh/assets/images/slider/shape-01.png" style={{width:"10%"}}/>
-                  <h1 class="text-white" style={{fontSize:"90px", padding:'5px 0',fontFamily: 'EB Garamond'}}>Bring The Best<br></br> Experience </h1>
+                  <h1 class="text-white" style={{fontSize:"90px", padding:'5px 0',fontFamily: 'EB Garamond'}}>SPICY SICILIANA</h1>
                   <button style={{border:'none',padding:'15px 20px', backgroundColor:"#BC8157", fontSize:'18px',marginTop:'30px'}} className="fw-bold text-white">ORDER NOW</button>
                 </div>
               </div>

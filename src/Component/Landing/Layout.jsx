@@ -3,6 +3,7 @@ import Header from './Header';
 import { Outlet } from 'react-router-dom'
 import Footer from './Footer';
 import Slider from './Slider';
+import Gallery from './Gallery';
 
 const Layout = () => {
     return (
@@ -10,6 +11,8 @@ const Layout = () => {
             <Header/>
                 <Slider/>
                 <Outlet/>
+               
+                <Gallery/>
             <Footer/>
         </>
     )
