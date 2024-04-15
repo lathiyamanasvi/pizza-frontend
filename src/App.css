@@ -4,7 +4,7 @@
 body{
 	margin:0;
 	color:#6a6f8c;
-
+	background-color: #F4F1EA;
 	font-family: "Oswald", sans-serif !important;
 }
 *,:after,:before{box-sizing:border-box}
@@ -287,22 +287,10 @@ input:focus, textarea:focus, keygen:focus, select:focus {
 	color:#C33130;
 	transition: all 0.5s;
   }
-/* gallery img */
-/* body {
-	margin: 0;
-	height: 100vh;
-	overflow: hidden;
-	background: black;
-  
-	display: grid;
-	place-items: center;
-  } */
   
   section {
 	--childs: 5;
 	--gap: 10px;
-	/* background: black;
-	border: 10px solid; */
 	width: min(100%, 100%);
 	display: flex;
 	gap: var(--gap);
@@ -326,3 +314,67 @@ input:focus, textarea:focus, keygen:focus, select:focus {
   section:has(.box:hover) .box:not(:hover) {
 	width: calc((100% / (var(--childs) + 1)));
   }
+  /* testimonial */
+  * {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -o-box-sizing: border-box;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    padding: 0;
+    margin: 0;
+}
+
+ul, ol {list-style: none}
+.testimonial{
+    width: 100%;
+    height: 400px;
+    max-width: 700px;
+    padding: 0 15px;
+    margin: 50px auto 0;
+    position: relative;
+}
+.slider {
+    width: 70%;
+    height: 400px;
+    position: absolute;
+    top: 45%;
+    margin: 0 auto;
+    -webkit-transform: translate(0, -50%);
+    -moz-transform: translate(0, -50%);
+    -o-transform: translate(0, -50%);
+    transform: translate(0, -50%);
+    overflow: hidden;
+    position: relative;
+}
+.slider ul, .slider ul li {width: 100%; height: 100%}
+.slider ul {
+    position: absolute;
+    top: 0;
+    left: 0
+}
+.slider ul li {
+    text-align: center;
+    color: #aaa;
+	background-color: rgba(36,29,43,0.9);
+}
+.slider ol {
+    position: absolute;
+    right: 0;
+    top: 50%;
+    padding-right: 15px;
+    -webkit-transform: translate(0, -50%);
+    -moz-transform: translate(0, -50%);
+    -o-transform: translate(0, -50%);
+    transform: translate(0, -50%);
+}
+.slider ol li {
+    width: 7px;
+    height: 30px;
+    margin-bottom: 5px;
+    background: rgba(255, 255, 255,.3);
+    cursor: pointer
+}
+.slider ol li:hover, .slider ol li.active {
+    background: #eee
+}

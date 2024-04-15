@@ -9,15 +9,12 @@ import Home from './Component/Landing/Home';
 import Login from './Component/Login';
 import Register from './Component/Register';
 
-// Admin
-import AdminDashboard from './Admin/AdminDashboard';
-import Admin_Add from './Admin/Admin_Add';
-import Admin_Header from './Admin/Admin_Header';
-import Admin_Layout from './Admin/Admin_Layout'
+
 import Contact from './Component/Contact';
 import Blog from './Component/Blog';
 import Gallery from './Component/Landing/Gallery';
 import Newsletter from './Component/Landing/Newsletter';
+import Testimonial from './Component/Landing/Testimonial';
 function App() {
   return (
     <>
@@ -33,18 +30,11 @@ function App() {
             <Route path='/Footer' element={<Footer />}></Route>
             <Route path='/gallery' element={<Gallery />}></Route>
             <Route path='/news' element={<Newsletter />}></Route>
+            <Route path='/testimonial' element={<Testimonial />}></Route>
            
           </Route>
           <Route path='/contact' element={<Contact />}></Route>
           <Route path='/blog' element={<Blog />}></Route>
-
-          {/* Admin Routes */}
-          <Route path='/' element={<Admin_Layout />}>
-            <Route path='/AdminDashboard' element={<AdminDashboard />}></Route>
-            <Route path='/Admin_Add' element={<Admin_Add />}></Route>
-            <Route path='/Admin_Header' element={<Admin_Header />}></Route>
-          </Route>
-
         </Routes>
       </BrowserRouter>
     </>

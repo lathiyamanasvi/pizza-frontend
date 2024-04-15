@@ -4,6 +4,7 @@ import { Outlet } from 'react-router-dom'
 import Footer from './Footer';
 import Slider from './Slider';
 import Gallery from './Gallery';
+import Testimonial from './Testimonial';
 
 const Layout = () => {
     return (
@@ -11,7 +12,7 @@ const Layout = () => {
             <Header/>
                 <Slider/>
                 <Outlet/>
-               
+                <Testimonial/>
                 <Gallery/>
             <Footer/>
         </>
