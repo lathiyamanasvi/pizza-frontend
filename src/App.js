@@ -1,4 +1,3 @@
-import logo from './logo.svg';
 import './App.css';
 import { BrowserRouter, Route, Routes } from 'react-router-dom';
 import 'bootstrap/dist/css/bootstrap.min.css';
@@ -8,8 +7,11 @@ import Footer from './Component/Landing/Footer';
 import Home from './Component/Landing/Home';
 import Login from './Component/Login';
 import Register from './Component/Register';
+<<<<<<< HEAD
 
 
+=======
+>>>>>>> c5bd7d9dafdc9523a98b3471945762b5560c3c20
 import Contact from './Component/Contact';
 import Blog from './Component/Blog';
 import Gallery from './Component/Landing/Gallery';
@@ -36,7 +38,11 @@ function App() {
           </Route>
           <Route path='/contact' element={<Contact />}></Route>
           <Route path='/blog' element={<Blog />}></Route>
+<<<<<<< HEAD
           <Route path='/menu' element={<Menu />}></Route>
+=======
+
+>>>>>>> c5bd7d9dafdc9523a98b3471945762b5560c3c20
         </Routes>
       </BrowserRouter>
     </>
