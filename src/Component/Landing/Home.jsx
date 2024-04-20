@@ -36,7 +36,7 @@ const Home = () => {
             Food?.map((val)=>{
               return(
 
-            <article class="card">
+           <article class="card">
             <img
               class="card__background"
               src={val.image}
@@ -55,7 +55,7 @@ const Home = () => {
               <button class="card__button">Read more</button>
             </div>
           </article>
-              )
+          )
             })
            } 
         </div>

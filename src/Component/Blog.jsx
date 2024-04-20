@@ -4,7 +4,6 @@ import Header from './Landing/Header'
 import { Link } from 'react-router-dom'
 import { MdChevronRight } from "react-icons/md";
 import { TiArrowRightOutline } from "react-icons/ti";
-import { IoIosSearch } from "react-icons/io";
 
 const Blog = () => {
     return (
@@ -175,8 +174,9 @@ const Blog = () => {
 
 
             <Footer />
-        </>
+        </>     
     )
 }
 
 export default Blog
+ 

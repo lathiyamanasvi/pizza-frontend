@@ -6,10 +6,10 @@ const Gallery = () => {
     <>
         {/* newsletter */}
         <section className='pb-5 px-5 pt-3 position-relative'>
-          <div className='position-absolute' style={{ left: "434px", top: "122px" }}>
-            <img src='https://demo2.wpopal.com/fazfood/wp-content/uploads/2023/10/ft_vector3.png' width="40px"></img>
+          <div className='position-absolute' style= {{ left: "434px", top: "122px" }}>
+            <img src='https://demo2.wpopal.com/fazfood/wp-content/uploads/2023/10/ft_vector3.png' width="40px"/>
           </div>
-          <div className='position-absolute' style={{ right: "427px", top: "57px", transform: "rotate(177deg)" }}>
+          <div className='position-absolute' style={{ right: "427px", top: "57px", transform: "rotate(177deg)"}}>
             <img src='https://demo2.wpopal.com/fazfood/wp-content/uploads/2023/10/ft_vector3.png' width="40px"></img>
           </div>
           <div className='position-absolute' style={{ left: "142px", top: "48px" }}>
@@ -27,7 +27,7 @@ const Gallery = () => {
           <div className="container p-5">
             <div className="newsletter text-center">
               <h1 className='text-dark' style={{ fontSize: "40px " }}>JOIN FOR HOT OFFERS</h1>
-              <p className='text-muted py-3'>If we go all out… We do it well! Subscribe to the newsletter <br /> to get the most exclusive promos.</p>
+              <p className='text-muted py-3'>If we go all out… We do it well! Subscribe to the newsletter <br /> to get the most exclusive promos.</p>y3
               <div className=''>
                 <form class="row g-3 justify-content-center">
                   <div class="col-4">

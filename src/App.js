@@ -15,6 +15,7 @@ import Blog from './Component/Blog';
 import Gallery from './Component/Landing/Gallery';
 import Newsletter from './Component/Landing/Newsletter';
 import Testimonial from './Component/Landing/Testimonial';
+import Menu from './Component/Menu';
 function App() {
   return (
     <>
@@ -35,6 +36,7 @@ function App() {
           </Route>
           <Route path='/contact' element={<Contact />}></Route>
           <Route path='/blog' element={<Blog />}></Route>
+          <Route path='/menu' element={<Menu />}></Route>
         </Routes>
       </BrowserRouter>
     </>
